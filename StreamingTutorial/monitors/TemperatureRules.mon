@@ -1,0 +1,33 @@
+package com.apama;
+using com.apama.cumulocity.Measurement;
+using com.apama.cumulocity.MeasurementValue;
+
+
+/** This monitor is responsible for ...  */
+monitor TemperatureRules {
+	action onload() 
+	{
+		monitor.subscribe(Measurement.CHANNEL);
+		on all Measurement(type = "c8y_Temperature") as m 
+		{
+			print "I've catched a temperature measurement " + m.toString();
+			dictionary<string, MeasurementValue> mv := m.measurements["c8y_Temperature"];
+			if (mv.hasKey("T")) {
+			float value := mv["T"].value;
+			float fahrenheit := value * 1.8 + 32.0;
+				            
+			send Measurement("", "c8y_Fahrenheit_Temperature", m.source, m.time, {
+			"c8y_Fahrenheit_Temperature":{
+			"F":com.apama.cumulocity.MeasurementValue(fahrenheit, "F", new dictionary<string,any>)
+				} 
+			}, new dictionary<string,any>) to Measurement.CREATE_CHANNEL;
+			}
+
+
+		}
+		
+
+		
+		
+	}
+}

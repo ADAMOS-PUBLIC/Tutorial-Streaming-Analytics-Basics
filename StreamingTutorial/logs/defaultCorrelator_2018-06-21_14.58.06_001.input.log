@@ -1,0 +1,1018 @@
+VERS 00000001 5
+HEAD 000014a6 <?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="/resources/transform.xslt"?><header><componentName>correlator</componentName><version>10.2.0.2.329089</version><build>rel/10.2.0.x@329089</build><buildPlatform>amd64-win</buildPlatform><platform>Windows 7 Professional (Service Pack 1)</platform><cputype>GenuineIntel family 6 model 14 stepping 3 Intel(R) Core(TM) i5-6440HQ CPU @ 2.60GHz</cputype><cpus>4</cpus><javaEnabled>true</javaEnabled><replayLogMode>inputLog</replayLogMode><args><arg>C:\SoftwareAG\Apama\bin\correlator.exe</arg><arg>--port</arg><arg>15903</arg><arg>--config</arg><arg>C:\SoftwareAG\Apama\Connectivity\bundles\standard-codecs.yaml</arg><arg>--config</arg><arg>C:\Users\arsi\workspace102\StreamingTutorial\config\connectivity\CumulocityIoT</arg><arg>--loglevel</arg><arg>INFO</arg><arg>--name</arg><arg>Apama Designer Correlator for StreamingTutorial(StreamingTutorial:defaultCorrelator)</arg><arg>-j</arg><arg>--inputLog</arg><arg>logs/defaultCorrelator_${START_TIME}_${ID}.input.log</arg></args><environment><variable>ALLUSERSPROFILE=C:\ProgramData</variable><variable>APAMA_HOME=C:\SoftwareAG\Apama</variable><variable>APAMA_WORK=C:\Users\Public\SoftwareAG\ApamaWork_10.2</variable><variable>APPDATA=C:\Users\arsi\AppData\Roaming</variable><variable>C8Y_BASE_URL=https://arsalan.adamos-dev.com</variable><variable>C8Y_PASS=123456789</variable><variable>C8Y_TENANT=arsalan</variable><variable>C8Y_USER=arsalanmahmood.siddiqi@softwareag.com</variable><variable>COMMONPROGRAMFILES=C:\Program Files\Common Files</variable><variable>COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files</variable><variable>COMMONPROGRAMW6432=C:\Program Files\Common Files</variable><variable>COMPUTERNAME=MCARSI01</variable><variable>COMSPEC=C:\Windows\system32\cmd.exe</variable><variable>DEFLOGDIR=C:\ProgramData\McAfee\Endpoint Security\Logs</variable><variable>DISPLAYLINKCONFIGROOT=C:\Program Files\DisplayLink Core Software\8.2.1956.0\</variable><variable>EMPIRUMSERVER=DAEINV02.eur.ad.sag</variable><variable>EMPIRUMSERVICEPARTITION=0</variable><variable>EMPSRVLONG=DAEINV02.eur.ad.sag</variable><variable>FP_NO_HOST_CHECK=NO</variable><variable>HOMEDRIVE=C:</variable><variable>HOMEPATH=\Users\arsi</variable><variable>JAVA_HOME=C:\Program Files\Java\jdk1.8.0_161</variable><variable>LOCALAPPDATA=C:\Users\arsi\AppData\Local</variable><variable>LOGONSERVER=\\DAEDC23</variable><variable>NUMBER_OF_PROCESSORS=4</variable><variable>OS=Windows_NT</variable><variable>PATH=C:\SoftwareAG\Apama\..\jvm\jvm\jre\bin\server;C:\SoftwareAG\Apama\..\jvm\jvm\jre\bin;C:\SoftwareAG\Apama\bin;C:\SoftwareAG\Apama\..\common\security\openssl\bin;C:\Users\Public\SoftwareAG\ApamaWork_10.2\lib;C:\SoftwareAG\Apama\..\jvm\jvm\jre\bin;C:\SoftwareAG\Apama\..\jvm\jvm\jre\bin\server;C:\SoftwareAG\Apama\..\UniversalMessaging\cplus\lib\x86_64;C:\SoftwareAG\Apama\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\SysWOW64\Empirum;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\System32;C:\Windows;C:\Program Files\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\arsi\AppData\Roaming\npm;C:\Users\arsi\AppData\Local\atom\bin;C:\Program Files\Java\jdk1.8.0_161\bin\server</variable><variable>PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC</variable><variable>PROCESSOR_ARCHITECTURE=AMD64</variable><variable>PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 94 Stepping 3, GenuineIntel</variable><variable>PROCESSOR_LEVEL=6</variable><variable>PROCESSOR_REVISION=5e03</variable><variable>PROGRAMDATA=C:\ProgramData</variable><variable>PROGRAMFILES=C:\Program Files</variable><variable>PROGRAMFILES(X86)=C:\Program Files (x86)</variable><variable>PROGRAMW6432=C:\Program Files</variable><variable>PROMPT=$P$G</variable><variable>PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\</variable><variable>PUBLIC=C:\Users\Public</variable><variable>SESSIONNAME=Console</variable><variable>SYSTEMDRIVE=C:</variable><variable>SYSTEMROOT=C:\Windows</variable><variable>TEMP=C:\Users\arsi\AppData\Local\Temp</variable><variable>TMP=C:\Users\arsi\AppData\Local\Temp</variable><variable>USERDNSDOMAIN=EUR.AD.SAG</variable><variable>USERDOMAIN=EUR</variable><variable>USERDOMAIN_ROAMINGPROFILE=EUR</variable><variable>USERNAME=arsi</variable><variable>USERPROFILE=C:\Users\arsi</variable><variable>WINDIR=C:\Windows</variable><variable>WINDOWS_TRACING_FLAGS=3</variable><variable>WINDOWS_TRACING_LOGFILE=C:\BVTBin\Tests\installpackage\csilogfile.log</variable></environment><version>10.2.0.2.329089</version></header>
+CONN 00000036 6569521357394311964:6569239886712568604 from (unknown)
+PROP 000001fb # $Copyright (c) 2016-2018 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors.$
+# Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG
+
+CUMULOCITY_USERNAME=arsalanmahmood.siddiqi@softwareag.com
+CUMULOCITY_TENANT=arsalan
+CUMULOCITY_PASSWORD=123456789
+CUMULOCITY_APPKEY=apama
+URL=http://arsalan.adamos-dev.com
+ 00000067 C:\Users\arsi\workspace102\StreamingTutorial\config\connectivity\CumulocityIoT\CumulocityIoT.properties
+YAML 0000031f # $Copyright (c) 2017 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors.$
+# Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG
+
+connectivityPlugins:
+    stringCodec:
+        libraryName: connectivity-string-codec
+        class: StringCodec
+
+    classifierCodec:
+        libraryName: ClassifierCodec
+        class: ClassifierCodec
+
+    mapperCodec:
+        libraryName: MapperCodec
+        class: MapperCodec
+
+    diagnosticCodec:
+        libraryName: DiagnosticCodec
+        class: DiagnosticCodec
+
+    jsonCodec:
+        libraryName: connectivity-json-codec
+        class: JSONCodec 0000003d C:\SoftwareAG\Apama\Connectivity\bundles\standard-codecs.yaml
+YAML 000003cc # $Copyright (c) 2016-2018 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors.$
+# Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG
+
+plugins:
+    ApamaConnectivityForCumulocityIoT:
+        classpath:
+           - ${APAMA_HOME}/lib/connectivity-cumulocity.jar
+        class: com.apama.cumulocity.Transport
+
+startChains:
+    CumulocityIoT:
+        - apama.eventMap:
+                    allowMissing: true
+        - ApamaConnectivityForCumulocityIoT:
+           requestAllDevices: true
+           subscribeToAllMeasurements: true
+           subscribeToDevices: true
+           tenant: ${CUMULOCITY_TENANT}
+           username: ${CUMULOCITY_USERNAME}
+           password: ${CUMULOCITY_PASSWORD}
+           appKey: ${CUMULOCITY_APPKEY}
+           url: ${URL}
+
+ 00000061 C:\Users\arsi\workspace102\StreamingTutorial\config\connectivity\CumulocityIoT\CumulocityIoT.yaml
+RAND 00000009 577529208
+TIME 00000010 1529585888.679,1
+CONN 0000003c 2480468325961571451:2480478131372301435 from 127.0.0.1:58768
+TIME 0000000e 1529585888.9,1
+MONF 00000b40 /**
+ * $Copyright (c) 2016-2017 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors.$
+ * Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG
+ */
+
+package com.softwareag.connectivity.control;
+
+/**
+ * Used for com.softwareag.connectivity.Chain#ackUpTo() and
+ * com.softwareag.connectivity.control.AckRequired#ackUpTo() , sent to the
+ * control channel of the chain.
+ * @private
+ */
+event AckUpTo {
+	string messageId;
+}
+
+/**
+ * Request from a connectivity chain to the application, asking it to reliably
+ * acknowledge all events that came from the chain immediately prior to this
+ * AckRequired.
+ *
+ * This event will be sent to the default channel of that chain. That is, your
+ * EPL will not normally need to subscribe to any extra channels to receive
+ * these requests, if it is already receiving regular events from that chain.
+ *
+ * A reliable-messaging-aware transport will issue these requests with as large
+ * an interval as it can get away with, based on the constraints of the
+ * external messaging system. So if your application has a "commit" mechanism
+ * that has a large fixed cost (for example, a filesystem sync, a database
+ * commit or an expensive computation) then doing a commit and acknowledgment
+ * on and only on AckRequired requests makes sense.
+ *
+ * Do not rely on these requests being high frequency or timely; the functional
+ * behaviour of your application should not depend on them, especially if
+ * latency is important. Only the operations required for safely preserving the
+ * effect of incoming events should be tied to AckRequired requests.
+ *
+ * @see com.softwareag.connectivity.Chain#ackUpTo() Otherwise, you can use this
+ * action to perform per-event acknowledgments if the message id of each
+ * incoming event is available.
+ */
+event AckRequired {
+	/** The message id of the regular event received immediately before this AckRequired. */
+	string messageId;
+
+	/** Id of the connectivity chain that this request has come from. */
+	string chainId;
+
+	/**
+	 * Acknowledge all previously received events from the connectivity chain
+	 * as having been reliably processed by your application.
+	 */
+	action ackUpTo() {
+		send AckUpTo(messageId) to "com.softwareag.connectivity.chaincontrol." + chainId;
+	}
+}
+
+/**
+ * Used by com.softwareag.connectivity.Chain#flush(). This event gets sent to
+ * the control channel of the chain.
+ * @private
+ */
+event Flush {
+	integer requestId;
+	context replyTo;
+}
+
+/**
+ * Response to a flush request.
+ *
+ * @see com.softwareag.connectivity.Chain#flush()
+ */
+event FlushAck {
+	/** Identifies the corresponding flush request. */
+	integer requestId;
+}
+ 0000003b C:\SoftwareAG\Apama\monitors\ConnectivityPluginsControl.mon
+TIME 0000000c 1529585889,1
+MONF 00001fd8 /**
+ * $Copyright (c) 2015-2017 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors.$
+ * Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG
+ */
+
+package com.softwareag.connectivity;
+
+/**
+ * Represents a chain instance and provides methods to perform various operations on it.
+ */
+event Chain
+{
+	/** @private */
+	import "ConnectivityPlugin" as _plugin;
+	/** 
+	 * Destroy this chain instance. Chains that are managed by a dynamic chain
+	 * manager cannot be destroyed this way.
+	 * This should be called only once.
+	 */
+	action destroy()
+	{
+		_plugin.destroyChain(chain);
+	}
+	
+	/**
+	 * Return the unique id of the chain instance.
+	 *
+	 * @return The id of the chain instance
+	 */
+	action getId() returns string
+	{
+		return _plugin.getChainId(chain);
+	}
+
+	/**
+	 * Acknowledge that a specific event and all previous events received from
+	 * this connectivity chain have been reliably processed by your
+	 * application.
+	 *
+	 * If you are going to make use of this action, then the message id of the
+	 * incoming events will need to be available somehow. For example, as a
+	 * field on the event.
+	 *
+	 * This action will only have an effect on chains with a
+	 * reliable-messaging-aware transport, and should not be used otherwise.
+	 *
+	 * @see com.softwareag.connectivity.control.AckRequired  In some situations
+	 * it may make more sense to do acknowledgments on AckRequired requests,
+	 * rather than against events of the application's choice.
+	 *
+	 * @param messageId The message id of the specific event
+	 */
+	action ackUpTo(string messageId) {
+		send control.AckUpTo(messageId) to "com.softwareag.connectivity.chaincontrol." + getId();
+	}
+
+	/**
+	 * Ask the chain to acknowledge all events previously sent to it by the
+	 * application. A FlushAck reply will be sent to the current context once
+	 * these events have been reliably processed by the external system.
+	 *
+	 * This action will only have an effect on chains with a
+	 * reliable-messaging-aware transport, and should not be used otherwise.
+	 *
+	 * A transport will still handle events that are sent to it, whether or not
+	 * flushing is used. A flush request is purely a signalling mechanism.
+	 *
+	 * @see com.softwareag.connectivity.control.FlushAck
+	 * @return The requestId of the expected FlushAck
+	 */
+	action flush() returns integer {
+		integer rID := integer.getUnique();
+		send control.Flush(rID, context.current()) to "com.softwareag.connectivity.chaincontrol." + getId();
+		return rID;
+	}
+	
+	/** @private */
+	chunk chain;
+}
+
+/**
+ * Utility event to provide string literals for direction.
+ */
+event Direction {
+	/**
+	 * The direction of messages flowing towards the transport (from the host).
+	 */
+	constant string TOWARDS_TRANSPORT := "TOWARDS_TRANSPORT";
+	
+	/**
+	 * The direction of messages flowing towards the host (from the transport).
+	 */
+	constant string TOWARDS_HOST := "TOWARDS_HOST";
+}
+
+/**
+ * Utilities for interacting with connectivity plug-ins.
+ */
+event ConnectivityPlugins
+{
+	/** @private */
+	import "ConnectivityPlugin" as _plugin;
+
+	/** Should be called by EPL applications after all EPL has been injected
+	 * and initialized, to indicate that the application is ready to receive
+	 * events from connectivity plug-ins.
+	 *
+	 * This will also enable reception of JMS events if correlator-integrated
+	 * JMS is enabled (That is, it implicitly calls
+	 * JMSPlugin.onApplicationInitialized)
+	 *
+	 * Invoking this action more than once is an error and will throw an
+	 * exception.
+	 *
+	 */
+	static action onApplicationInitialized()
+	{
+		_plugin.onApplicationInitialized();
+	}
+	/** 
+	 * Create and start a chain instance from the given chain definition listed in dynamicChains in the configuration file.
+	 *
+	 * This action returns a Chain that has already been created and started. It is immediately able to receive events.
+	 *
+	 * @deprecated [This action has been deprecated. Please use createDynamicChain instead.]
+	 *
+	 * @param chainInstanceId The unique identifier to use for the new chain instance. This identifier is used for logging, and for looking up existing Chain objects by id.
+	 * @param channels The list of channels this chain should subscribe to
+	 * @param chainDefnName The name of a chain definition listed under dynamicChains in the configuration file
+	 * @param substitutions Dictionary providing values for <code>@{...}</code> dynamic substitution variables in the chain definition
+	 * @return A Chain object which can be used to destroy this chain later
+	 */
+	static action createChain(string chainInstanceId, sequence<string> channels, string chainDefnName, dictionary<string, string> substitutions) returns Chain 
+	{
+		return Chain(_plugin.createChain(chainInstanceId, channels, chainDefnName, substitutions));
+	}
+	
+	/** 
+	 * Create and start a chain instance from the given chain definition listed in dynamicChains in the configuration file.
+	 *
+	 * This action returns a Chain that has already been created and started. It is immediately able to receive events.
+	 *
+	 * @param chainInstanceId The unique identifier to use for the new chain instance. This identifier is used for logging, and for looking up existing Chain objects by id.
+	 * @param channels The list of channels this chain should subscribe to
+	 * @param chainDefnName The name of a chain definition listed under dynamicChains in the configuration file
+	 * @param substitutions Dictionary providing values for <code>@{...}</code> dynamic substitution variables in the chain definition
+	 * @param defaultChannelTowardsHost Default channel to use for sending a message towards the host if no channel is specified on the message. 
+	 * Use an empty string for no default channel. It is an error to specify non-empty defaultChannelTowardsHost value if defaultChannel is also
+	 * specified for the host plug-in.
+	 * @return A Chain object which can be used to destroy this chain later
+	 */
+	static action createDynamicChain(string chainInstanceId, sequence<string> channels, string chainDefnName, dictionary<string, string> substitutions, string defaultChannelTowardsHost) returns Chain 
+	{
+		return Chain(_plugin.createDynamicChain(chainInstanceId, channels, chainDefnName, substitutions, defaultChannelTowardsHost));
+	}
+	
+	/**
+	 * Look up a chain instance by its identifier. This can retrieve
+	 * dynamically created chains, as well as statically created chains from
+	 * 'startChains' in the correlator configuration.
+	 *
+	 * An exception is thrown if no chain exists with this identifier.
+	 *
+	 * @param chainInstanceId The unique identifier of the chain instance
+	 * @return The chain instance
+	 */
+	static action getChainById(string chainInstanceId) returns Chain {
+		return Chain(_plugin.getChainById(chainInstanceId));
+	}
+	
+	/**
+	 * Look up a chain instance by a channel it is subscribed to or sending to.
+	 *
+	 * There must be exactly one chain matching the requested combination of
+	 * channel and direction, else an exception is thrown.
+	 * 
+	 * The direction of the channel specifies how the channel is used by the chain instance. 
+	 * The TOWARDS_TRANSPORT direction means that the channel is one of the channels that 
+	 * the chain instance is subscribed to to receive events from the host. The TOWARDS_HOST 
+	 * direction means that the channel is used by the chain instance as the default channel 
+	 * to deliver events from the transport to the host.
+	 * 
+	 * @param channel The channel to use for lookup. 
+	 * @param direction Specifies the direction in which the channel is used by the chain instance. 
+	 * Use the constants defined in the Direction event for string literals.
+	 * @see com.softwareag.connectivity.Direction
+	 */
+	static action getChainByChannel(string channel, string direction) returns Chain {
+		return Chain(_plugin.getChainByChannel(channel, direction));
+	}
+}
+
+ 00000034 C:\SoftwareAG\Apama\monitors\ConnectivityPlugins.mon
+MONF 00004e1e // $Copyright (c) 2016-2018 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors.$
+// Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG
+//*****************************************************************************
+
+package com.apama.cumulocity;
+
+using com.softwareag.connectivity.ExtraFieldsDict;
+
+/**
+ * Sent in the case of any error.
+ */
+event Error {
+	/** The error message. */
+	string message;
+}
+
+/**
+ * An operation to send to a device.
+ *
+ * Examples:
+ * <pre>
+ * Create an operation,
+ * send Operation("","deviceId", "PENDING", {"c8y_Message":<any>{<any>"text":<any>"Hello Cumulocity device"}}) to Operation.CHANNEL;
+ * <br>
+ * You can update the status field.
+ * send Operation("12345","deviceId", "EXECUTING", {}}) to Operation.CHANNEL;
+ * <br>
+ * </pre>
+ */
+@ExtraFieldsDict("params")
+event Operation {
+	/** Channel to send the events to. */
+	constant string CHANNEL := "CumulocityIoT";
+	/** Unique identifier for this Operation.
+	 *
+	 * Supply as empty if creating a new Operation */
+	string id;
+	/** Identifier of the ManagedObject to send the operation to. */
+	string source;
+	/** Status of the operation : one of SUCCESSFUL, FAILED, EXECUTING or PENDING. */
+	string status;
+	/** Any extra parameters available on the Operation. */
+	dictionary<string, any> params;
+}
+
+/**
+ * Request all Managed Objects to be sent.
+ *
+ * This can also be performed automatically on hostReady by setting transport property requestAllDevices (behaves as if
+ * <pre>RequestAllAssets(-1, "cumulocity.devices")</pre> has been sent). On this being sent, a Managed Object event for every
+ * Managed Object will be sent to the requested channel, followed by RequestAllDevicesComplete.
+ * Send to CHANNEL (defined as a constant on this type).
+ */
+event RequestAllDevices {
+	/**
+	 * Channel to send RequestAllDevices events to.
+	 */
+	constant string CHANNEL := "C8YDeviceRequest";
+	/**
+	 * Unique identifier for this request.
+	 * requestAllDevices configuration property uses requestId -1.
+	 */
+	integer requestId;
+	/**
+	 * Channel to send Asset, RequestAllAssetsComplete events to.
+	 */
+	string channel;
+}
+
+/**
+ * Sent at the end of a RequestAllAssets stream of events.
+ */
+event RequestAllDevicesComplete {
+	/**
+	 * Unique identifier for this request.
+	 * Events sent at startup if requestAllDevices is set uses requestId=-1.
+	 */
+	integer requestId;
+	/**
+	 * If not empty, indicates an error.
+	 */
+	string msg;
+}
+
+/**
+ * Subscribe to measures.
+ * The equivalent of sending SubscribeMeasurements("*") at hostReady can be achieved by setting configuration subscribeToAllMeasures to true.
+ */
+event SubscribeMeasurements {
+	/**
+	 * Wildcard value of assetId.
+	 */
+	constant string WILDCARD := "*";
+	/**
+	 * Channel to send these events to.
+	 */
+	constant string CHANNEL := "CumulocityIoT";
+	/**
+	 * The source to subscribe to, or WILDCARD for all assets.
+	*/
+	string assetId;
+}
+
+/**
+ * Unsubscribe from measures.
+ *
+ * Subscriptions are ref-counted - multiple SubscribeMeasurements will require the same number of UnsubscribeMeasurements to unsubscribe.
+ */
+event UnsubscribeMeasurements {
+	/**
+	 * Wildcard value of assetId.
+	 */
+	constant string WILDCARD := "*";
+	/**
+	 * Channel to send these events to.
+	 */
+	constant string CHANNEL := "CumulocityIoT";
+	/**
+	 * The source to unsubscribe from, or WILDCARD for all assets.
+	*/
+	string assetId;
+}
+
+/**
+ * Measurement value.
+ */
+@ExtraFieldsDict("params")
+event MeasurementValue {
+	/** Value from the sensor. */
+	float value;
+	/** Units the reading is in, for example mm, lux. */
+	string unit;
+	/** Any per-value extra fields. */
+	dictionary<string, any> params;
+}
+
+/**
+ * Measurement data.
+ *
+ * Sent by the transport when a device sends a new Measurement.
+ * Requires SubscribeMeasurements or configuration property subscribeToAllMeasurements.
+ * Sent to the cumulocity.measurements channel.
+ *
+ * Examples:
+ * <pre>
+ * Measurement("1001","c8y_LightMeasurement","12346081",1464359004.89,{"c8y_LightMeasurement":{"e":com.apama.cumulocity.MeasurementValue(108.1,"lux",{})}},{})
+ * <br>
+ * Measurement("1002","c8y_DistanceMeasurement","12346082",1464359005.396,{"c8y_DistanceMeasurement":{"distance":com.apama.cumulocity.MeasurementValue(344,"mm","","","",{})}},{})
+ * </pre>
+ *
+ * Additionally, we can also create a new Measurement for a device.
+ * To create a Measurement, send a Measurement event object to Measurement.CREATE_CHANNEL.
+ *
+ * Examples:
+ * <pre>
+ * send Measurement("","c8y_DistanceMeasurement","123",1464359005.396,{"distance":{"distance":MeasurementValue(3.44,"mm",{})}},{}) to Measurement.CREATE_CHANNEL;
+ * </pre>
+ */
+@ExtraFieldsDict("params")
+event Measurement {
+	/** The channel to which <tt>Measurement</tt> events are sent from the transport.
+	 */
+	constant string CHANNEL:= "cumulocity.measurements";
+	/** The channel to send a measurement event to create a new measurement object in Cumulocity.
+	 */
+	constant string CREATE_CHANNEL:= "CumulocityIoT";
+	/** Unique identifier for this Measurement.
+	 *
+	 * Supply as empty if creating a new Measurement */
+	string id;
+	/** The type of the measurement. */
+	string type;
+	/** The unique identifier of the source of the measurement.
+	 *  This should correspond to a ManagedObject. */
+	string source;
+	/** The time the measurement was taken, represented as the number of
+	 * seconds since the epoch (1st January 1970). */
+	float time;
+	/** Measurement values mapped by fragment and series.
+	 *
+	 * Dictionary mapping from fragment name to a dictionary mapping from series name to
+	 * MeasurementValue objects.
+	 */
+	dictionary<string, dictionary<string, MeasurementValue> > measurements;
+	/** This dictionary is available to hold any other data
+	 *  associated with the measurement. */
+	dictionary<string, any> params;
+}
+
+/**
+ * Event data.
+ *
+ * Sent by the transport when a device or other application creates an Event, or updates an Event.
+ * Requires SubscribeMeasurements or configuration property subscribeToAllMeasurements.
+ * Sent to the cumulocity.measurements channel.
+ *
+ * Examples:
+ * <pre>
+ * Event("21","c8y_EntranceEvent","12346082",1464364483.396,"Entrance event triggered.",{"distance":any(float,317)})
+ * <br>
+ * Event("22","com_cumulocity_events_TamperEvent","12345",1464364483.396,"Tamper sensor triggered",{"history":{}})
+ * </pre>
+ *
+ * Additionally, we can also create a new Event or update an existing Event for a device.
+ * To create/update an Event, send an Event event object to Event.CHANNEL.
+ *
+ * Examples:
+ * <pre>
+ * Create an Event,
+ * send Event("","c8y_EntranceEvent","12346082",1464364483.396,"Entrance event triggered.",{"distance":any(float,317)}) to Event.CHANNEL;
+ * <br>
+ * You can update the text field.
+ * send Event("22","c8y_EntranceEvent","12346082",1492676483.396,"Tamper sensor triggered",{}) to Event.CHANNEL;
+ * </pre>
+ */
+@ExtraFieldsDict("params")
+event Event {
+	/** The channel for sending updates/ new Events to. */
+	constant string CHANNEL :="CumulocityIoT";
+	/** Unique identifier for this Event.
+	 *
+	 * Supply as empty if creating a new Event. */
+	string id;
+	/** The type of the Cumulocity event. */
+	string type;
+	/** Identifier of the source of the event. */
+	string source;
+	/** Timestamp of the event. */
+	float time;
+	/** Text or message of the Event. */
+	string text;
+	/** Any other properties available on the Event . */
+	dictionary<string, any> params;
+}
+
+/**
+ * Alarm data.
+ *
+ * Sent by the transport when a device or other application creates an Alarm, or updates an Alarm.
+ * Requires SubscribeMeasurements or configuration property subscribeToAllMeasurements.
+ * Sent to the cumulocity.measurements channel.
+ *
+ * Examples:
+ * <pre>
+ * Alarm("22","c8y_UnavailabilityAlarm","12669915",1464365565.661,"No communication with device since 2016-05-27T18:11:23.886+02:00","ACKNOWLEDGED","MAJOR",1,{})
+ * <br>
+ * Alarm("11","com_cumulocity_events_BatteryWarning","1122",1464365565.661,"Low battery level","ACTIVE","MINOR",1,{"history":{}})
+ * </pre>
+ *
+ * Additionally, we can also create a new Alarm or update an existing Alarm for a device.
+ * To create/update an Alarm, send an Alarm event object to Alarm.CHANNEL.
+ *
+ * Examples:
+ * <pre>
+ * Create an Alarm,
+ * send Alarm("","c8y_UnavailabilityAlarm","12669915",1464365565.661,"No communication with device since 2016-05-27T18:11:23.886+02:00","ACKNOWLEDGED","MAJOR",1,{}) to Alarm.CHANNEL;
+ * <br>
+ * You can update the text, status and severity fields.
+ * send Alarm("11","c8y_UnavailabilityAlarm","12669915",1464365565.661,"Low battery level","ACTIVE","MINOR",1,{}) to Alarm.CHANNEL;
+ * </pre>
+ */
+@ExtraFieldsDict("params")
+event Alarm {
+	/** The channel for sending updates/ new Alarms to. */
+	constant string CHANNEL :="CumulocityIoT";
+	/** Unique identifier for this Alarm.
+	 *
+	 * Supply as empty if creating a new Alarm. */
+	string id;
+	/** The type of the Cumulocity event. */
+	string type;
+	/** Identifier of the source of the event. */
+	string source;
+	/** Timestamp of the event. */
+	float time;
+	/** Text or message of the Alarm. */
+	string text;
+	/** The status of the alarm: ACTIVE, ACKNOWLEDGED or CLEARED. */
+	string status;
+	/** The severity of the alarm: CRITICAL, MAJOR, MINOR or WARNING. Must be upper-case. */
+	string severity;
+	/** The number of times this alarm has been sent. */
+	integer count;
+	/** Any other propertiess available on the Alarm . */
+	dictionary<string,any> params;
+}
+
+/**
+ * Description of a device or other Managed Object.
+ *
+ * Sent on startup or in response to a RequestAllDevices event, or if a new ManagedObject is detected (and
+ * configuration property subscribeToDevices is enabled).
+ * Example:
+ * <pre>
+ * ManagedObject("43026768","com_ublox_C027_REV-A","Mbed Test Device",["c8y_Relay","c8y_Configuration","c8y_Message"],[],[],[],{"alt":610.2,"lat":17.426479,"lng":78.33123},{,"c8y_Availability":any(dictionary<any,any>,{any(string,"status"):any(string,"UNAVAILABLE")}), ,"c8y_Hardware":any(dictionary<any,any>,{any(string,"model"):any(string,"Ublox C027"),any(string,"revision"):any(string,"1"),any(string,"serialNumber"):any(string,"352648069564516")}),"c8y_IsDevice":any(dictionary<any,any>,{}),"c8y_Mobile":any(dictionary<any,any>,{any(string,"cellId"):any(string,"14D80CD"),any(string,"iccid"):any(string,"89914905900016774658"),any(string,"imei"):any(string,"352648069564516")}),"c8y_MotionTracking":any(dictionary<any,any>,{any(string,"active"):any(boolean,true),any(string,"interval"):any(integer,0)}),"c8y_RequiredAvailability":any(dictionary<any,any>,{any(string,"responseInterval"):any(integer,20)}),"com_cumulocity_model_Agent":any(dictionary<any,any>,{}),"owner":any(string,"device_352648069564516")})
+ * </pre>
+ */
+@ExtraFieldsDict("params")
+event ManagedObject {
+	/** The channel to which <tt>MangedObject</tt> events are sent from the transport.*/
+	constant string CHANNEL:= "cumulocity.devices";
+	/** The unique identifier for this specific Device.
+	 *
+	 * Supply as empty if creating a new ManagedObject */
+	string id;
+	/** The type of the device. */
+	string type;
+	/** The name of this ManagedObject. <b>Note:</b> This does not have to be a unique value. */
+	string name;
+	/** List of supported operations for this device. */
+	sequence<string> supportedOperations;
+	/** List of supported measurements for this device. */
+	sequence<string> supportedMeasurements;
+	/** Ids of child devices. */
+	sequence<string> childDeviceIds;
+	/** Ids of child devices. */
+	sequence<string> childAssetIds;
+	/** Ids of parent devices. */
+	sequence<string> deviceParentIds;
+	/** Ids of parent assets. */
+	sequence<string> assetParentIds;
+	/** If known, contains lat, lng, altitude and accuracy. */
+	dictionary<string, float> position;
+	/** Other fragments for this ManagedObject. */
+	dictionary<string, any> params;
+}
+
+/**
+* Find an Alarm, searching on source, status and type.
+*
+* EPL sends to the CHANNEL, and transport will respond with 0+ FindAlarmResponse and then 1 FindAlarmResponseAck on FindAlarmResponse.CHANNEL channel.
+*/
+@ExtraFieldsDict("params")
+event FindAlarm {
+	/** Channel to send these events to. */
+	constant string CHANNEL := "CumulocityIoT";
+	/** Unique request identifier. */
+	integer reqId;
+	/** Additional request parameters.
+	 *  'id', 'source', 'status', 'severity', 'type', 'resolved', 'fromDate', 'toDate' can be provided.
+	 */
+	dictionary<string, string> params;
+}
+
+/**
+* An alarm has been found.
+*/
+event FindAlarmResponse {
+	/** The channel to which <tt>FindAlarmResponse</tt> events are sent from the transport.*/
+	constant string CHANNEL := "cumulocity.findalarm.response";
+	/** Request identifier.
+	*
+	* Equal to the reqId in the FindAlarm event.
+	*/
+	integer reqId;
+	/** Alarm identifier.
+	*
+	* Equal to the identifier in the Alarm.
+	*/
+	string id;
+	/** The Alarm object. */
+	Alarm alarm;
+}
+
+/**
+* Completed search for alarms.
+*/
+event FindAlarmResponseAck {
+	/** Request identifier.
+	*
+	* Equal to the reqId in the FindAlarm event.
+	*/
+	integer reqId;
+}
+
+/**
+* Find an Event, searching on source, status and type.
+*
+* EPL sends to the CHANNEL, and transport will respond with 0+ FindEventResponse and then 1 FindEventResponseAck on FindEventResponse.CHANNEL channel.
+*/
+@ExtraFieldsDict("params")
+event FindEvent {
+	/** Channel to send these events to. */
+	constant string CHANNEL := "CumulocityIoT";
+	/** Unique requestId. */
+	integer reqId;
+	/** Additional request parameters.
+	 *  'id', 'source', 'type', 'fromDate', 'toDate', 'fromCreationDate', 'toCreationDate' can be provided.
+	 */
+	dictionary<string, string> params;
+}
+
+/**
+* An event has been found.
+*/
+event FindEventResponse {
+	/** The channel to which <tt>FindEventResponse</tt> events are sent from the transport.*/
+	constant string CHANNEL := "cumulocity.findevent.response";
+	/** Request identifier.
+	*
+	* Equal to the reqId in the FindEvent event.
+	*/
+	integer reqId;
+	/** Event identifier.
+	*
+	* Equal to the id in the evt Event.
+	*/
+	string id;
+	/** The Event object. */
+	Event evt;
+}
+
+/**
+* Completed search for events.
+*/
+event FindEventResponseAck {
+	/** Request id.
+	*
+	* Equal to the reqId in the FindEvent event.
+	*/
+	integer reqId;
+}
+
+/**
+* Find ManagedObject (that is, devices).
+*
+* EPL sends to the CHANNEL, and transport will respond with 0+ FindManagedObjectResponse and then 1 FindManagedObjectResponseAck on FindManagedObjectResponse.CHANNEL channel.
+*/
+@ExtraFieldsDict("params")
+event FindManagedObject {
+	/** Channel to send these events to. */
+	constant string CHANNEL := "CumulocityIoT";
+	/** Unique request identifier. */
+	integer reqId;
+	/** The unique identifier for this specific Device. */
+	string deviceId;
+	/** Additional request params.
+	 *  'fragmentType', 'type', 'owner', 'text', 'childAssetId', 'childDeviceId', 'childAdditionId', 'ids' (comma separated list of id's) can be provided.
+	 */
+	dictionary<string, string> params;
+}
+
+/**
+* An managed object has been found.
+*/
+event FindManagedObjectResponse {
+	/** The channel to which <tt>FindManagedObject</tt> responses are sent from the transport.*/
+	constant string CHANNEL := "cumulocity.finddevice.response";
+	/** Request identifier. */
+	integer reqId;
+	/**
+	*
+	* Equal to the id in the FindManagedObject event.
+	*/
+	string id;
+	/** The ManagedObject object. */
+	ManagedObject managedObject;
+}
+
+/**
+* Completed search for Managed object.
+*/
+event FindManagedObjectResponseAck {
+	/** The channel to which <tt>FindManagedObject</tt> responses are sent from the transport.*/
+	constant string CHANNEL := "cumulocity.finddevice.response";
+	/** Request identifier.
+	*
+	* Equal to the reqId in the FindManagedObject event.
+	*/
+	integer reqId;
+}
+
+/**
+* Find an Operation, searching on source, status, fragementType and agent .
+*
+* EPL sends to the CHANNEL, and transport will respond with 0+ FindOperationResponse and then 1 FindOperationResponseAck on FindOperationResponse.CHANNEL channel.
+* @since 10.2.0.2
+*/
+@ExtraFieldsDict("params")
+event FindOperation {
+	/** Channel to send these events to. */
+	constant string CHANNEL := "CumulocityIoT";
+	/** Unique request identifier. */
+	integer reqId;
+	/** Additional request parameters.
+	 *  'id', 'source', 'status', 'agent', 'fragmentType' can be provided.
+	 */
+	dictionary<string, string> params;
+}
+
+/**
+* An operation has been found.
+* @since 10.2.0.2
+*/
+event FindOperationResponse {
+	/** The channel to which <tt>FindOperationResponse</tt> events are sent from the transport.*/
+	constant string CHANNEL := "cumulocity.findoperation.response";
+	/** Request identifier.
+	*
+	* Equal to the reqId in the FindOperation event.
+	*/
+	integer reqId;
+	/** Operation identifier.
+	*
+	* Equal to the identifier in the Operation.
+	*/
+	string id;
+	/** The Operation object. */
+	Operation operation;
+}
+
+/**
+* Completed search for Operation.
+* @since 10.2.0.2
+*/
+event FindOperationResponseAck {
+	/** Request identifier.
+	*
+	* Equal to the reqId in the FindOperation event.
+	*/
+	integer reqId;
+}
+
+
+
+////////////////////////////////////////////////////
+//Microservice event definitions.
+//These are fire and forget events that will (eventually) result in http(s) JSON requests to other microservices. The response is uninteresting.
+//
+/**
+* Sends email alert.
+*
+* Example:
+* <pre>
+* SendEmail("Subject","Text", "xyz at gmail.com",["a at gmail.com","b at gmail.com"],["c at gmail.com"],"d at gmail.com",{"assetId":"10XXX"})
+* </pre>
+*/
+@ExtraFieldsDict("extraParams")
+event SendEmail {
+	/** Channel to send these events to. */
+	constant string CHANNEL := "CumulocityIoT";
+	/** Subject field of the mail. */
+	string subject;
+	/** Message of the mail. */
+	string text;
+	/** Reply-to field of the mail. */
+	string replyTo;
+	/** List of receivers of the mail. */
+	sequence<string> receiver;
+	/** List of cc recipients of the mail. */
+	sequence<string> cc;
+	/** List of bcc recipients of the mail. */
+	string bcc;
+	/** Additional parameters. */
+	dictionary<string, string> extraParams;
+}
+
+/**
+* Sends SMS alert.
+*
+* Example:
+* <pre>
+* SendSMS("Message",["+918XXXXXXXX1"],"10XXX",{"sender":"+918XXXXXXXX1"})
+* </pre>
+*/
+@ExtraFieldsDict("extraParams")
+event SendSMS {
+	/** Channel to send these events to. */
+	constant string CHANNEL := "CumulocityIoT";
+	/** Content of the sms. */
+	string message;
+	/** List of receivers of the SMS. */
+	sequence<string> address;
+	/** Identifier of the source that triggered this SMS. */
+	string sourceAssetId;
+	/** Additional parameters. */
+	dictionary<string, string> extraParams;
+}
+
+/**
+* SMS resource reference.
+*/
+event SMSResourceReference {
+	/** Resource URL of the SMS resource reference. */
+	string resourceURL;
+}
+
+/**
+* SMS response.
+*/
+event SMSResponse {
+	/** Message identifier. */
+	string messageId;
+	/** Resource reference in the SMS response. */
+	SMSResourceReference resourceReference;
+}
+
+/**
+* Sends speech.
+*/
+event SendSpeech {
+	/** Phone number to call. */
+	string phoneNumber;
+	/** Text field to be converted to voice message.*/
+	string textToSpeech;
+	/** Identifier of the device that triggered this call. */
+	string deviceId;
+	/** Number of retries or attempt to be made. */
+	integer attempts;
+	/** Timeout for receiving response. */
+	integer timeout;
+	/** Alarm identifier - a response will update this Alarm. */
+	string alarmId;
+	/** Question text. */
+	string questionText;
+	/** Acknowledgement button. */
+	string acknowledgeButton;
+}
+ 0000003c C:\SoftwareAG\Apama\monitors\Cumulocity_EventDefinitions.mon
+MONF 00000525 // $Copyright (c) 2015-2018 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors.$
+// Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG
+//*****************************************************************************
+package com.apama.cumulocity.internal;
+
+using com.apama.cumulocity.RequestAllDevices;
+
+/**
+ * Disabled ForwardRequestAllDevices.
+ */
+event DisableBasicForwarder {
+}
+
+/**
+ * Forwards RequestAllDevices to the transport.
+ * Can be disabled by routing DisableBasicForwarder in the main context.
+ */
+monitor ForwardRequestAllDevices {
+	constant string CUMULOCITY_CHANNEL := "CumulocityIoT";
+	action onload {
+		context ctx := context("Cumulocity.basicForwarder");
+		on DisableBasicForwarder() {
+			send DisableBasicForwarder() to ctx;
+		}
+		spawn basicForwarder to ctx;
+	}
+	action basicForwarder() {
+		monitor.subscribe(RequestAllDevices.CHANNEL);
+		on DisableBasicForwarder() {
+			die;
+		}
+		RequestAllDevices rad;
+		on all RequestAllDevices() as rad {
+			send rad to CUMULOCITY_CHANNEL;
+		}
+		log "Apama Connectivity For Cumulocity IoT v10.2.0.2.329089 loaded" at INFO;
+	}
+}
+ 0000003a C:\SoftwareAG\Apama\monitors\Cumulocity_ServiceMonitor.mon
+MONF 000001b9 package com.apama;
+using com.softwareag.connectivity.ConnectivityPlugins;
+using com.apama.cumulocity.Measurement;
+
+
+/** This monitor is responsible for ...  */
+monitor TemperatureRules {
+	action onload() {
+		monitor.subscribe(Measurement.CHANNEL);
+		on all Measurement(type = "c8y_Temperature") as m {print "I've catched a temperature measurement " + m.toString();
+		}
+			ConnectivityPlugins.onApplicationInitialized();
+
+		
+		
+	}
+}
+ 0000004a C:\Users\arsi\workspace102\StreamingTutorial\monitors\TemperatureRules.mon
+DISC 0000003c 2480468325961571451:2480478131372301435 from 127.0.0.1:58768
+TIME 0000000e 1529586160.5,1
+EVNT 000000c9 6569521357394311964 "cumulocity.measurements",com.apama.cumulocity.Measurement("15042","c8y_Temperature","1915",1371913394,{"c8y_Temperature":{"T":com.apama.cumulocity.MeasurementValue(25,"C",{})}},{})
+DISC 00000036 6569521357394311964:6569239886712568604 from (unknown)
+TIME 0000000e 1529586183.2,1
+TIME 0000000e 1529586183.2,2

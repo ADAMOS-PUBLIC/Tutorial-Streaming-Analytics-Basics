@@ -1,0 +1,62 @@
+VERS 00000001 5
+HEAD 000014a6 <?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="/resources/transform.xslt"?><header><componentName>correlator</componentName><version>10.2.0.2.329089</version><build>rel/10.2.0.x@329089</build><buildPlatform>amd64-win</buildPlatform><platform>Windows 7 Professional (Service Pack 1)</platform><cputype>GenuineIntel family 6 model 14 stepping 3 Intel(R) Core(TM) i5-6440HQ CPU @ 2.60GHz</cputype><cpus>4</cpus><javaEnabled>true</javaEnabled><replayLogMode>inputLog</replayLogMode><args><arg>C:\SoftwareAG\Apama\bin\correlator.exe</arg><arg>--port</arg><arg>15903</arg><arg>--config</arg><arg>C:\SoftwareAG\Apama\Connectivity\bundles\standard-codecs.yaml</arg><arg>--config</arg><arg>C:\Users\arsi\workspace102\StreamingTutorial\config\connectivity\CumulocityIoT</arg><arg>--loglevel</arg><arg>INFO</arg><arg>--name</arg><arg>Apama Designer Correlator for StreamingTutorial(StreamingTutorial:defaultCorrelator)</arg><arg>-j</arg><arg>--inputLog</arg><arg>logs/defaultCorrelator_${START_TIME}_${ID}.input.log</arg></args><environment><variable>ALLUSERSPROFILE=C:\ProgramData</variable><variable>APAMA_HOME=C:\SoftwareAG\Apama</variable><variable>APAMA_WORK=C:\Users\Public\SoftwareAG\ApamaWork_10.2</variable><variable>APPDATA=C:\Users\arsi\AppData\Roaming</variable><variable>C8Y_BASE_URL=https://arsalan.adamos-dev.com</variable><variable>C8Y_PASS=123456789</variable><variable>C8Y_TENANT=arsalan</variable><variable>C8Y_USER=arsalanmahmood.siddiqi@softwareag.com</variable><variable>COMMONPROGRAMFILES=C:\Program Files\Common Files</variable><variable>COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files</variable><variable>COMMONPROGRAMW6432=C:\Program Files\Common Files</variable><variable>COMPUTERNAME=MCARSI01</variable><variable>COMSPEC=C:\Windows\system32\cmd.exe</variable><variable>DEFLOGDIR=C:\ProgramData\McAfee\Endpoint Security\Logs</variable><variable>DISPLAYLINKCONFIGROOT=C:\Program Files\DisplayLink Core Software\8.2.1956.0\</variable><variable>EMPIRUMSERVER=DAEINV02.eur.ad.sag</variable><variable>EMPIRUMSERVICEPARTITION=0</variable><variable>EMPSRVLONG=DAEINV02.eur.ad.sag</variable><variable>FP_NO_HOST_CHECK=NO</variable><variable>HOMEDRIVE=C:</variable><variable>HOMEPATH=\Users\arsi</variable><variable>JAVA_HOME=C:\Program Files\Java\jdk1.8.0_161</variable><variable>LOCALAPPDATA=C:\Users\arsi\AppData\Local</variable><variable>LOGONSERVER=\\DAEDC23</variable><variable>NUMBER_OF_PROCESSORS=4</variable><variable>OS=Windows_NT</variable><variable>PATH=C:\SoftwareAG\Apama\..\jvm\jvm\jre\bin\server;C:\SoftwareAG\Apama\..\jvm\jvm\jre\bin;C:\SoftwareAG\Apama\bin;C:\SoftwareAG\Apama\..\common\security\openssl\bin;C:\Users\Public\SoftwareAG\ApamaWork_10.2\lib;C:\SoftwareAG\Apama\..\jvm\jvm\jre\bin;C:\SoftwareAG\Apama\..\jvm\jvm\jre\bin\server;C:\SoftwareAG\Apama\..\UniversalMessaging\cplus\lib\x86_64;C:\SoftwareAG\Apama\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\SysWOW64\Empirum;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\System32;C:\Windows;C:\Program Files\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\arsi\AppData\Roaming\npm;C:\Users\arsi\AppData\Local\atom\bin;C:\Program Files\Java\jdk1.8.0_161\bin\server</variable><variable>PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC</variable><variable>PROCESSOR_ARCHITECTURE=AMD64</variable><variable>PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 94 Stepping 3, GenuineIntel</variable><variable>PROCESSOR_LEVEL=6</variable><variable>PROCESSOR_REVISION=5e03</variable><variable>PROGRAMDATA=C:\ProgramData</variable><variable>PROGRAMFILES=C:\Program Files</variable><variable>PROGRAMFILES(X86)=C:\Program Files (x86)</variable><variable>PROGRAMW6432=C:\Program Files</variable><variable>PROMPT=$P$G</variable><variable>PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\</variable><variable>PUBLIC=C:\Users\Public</variable><variable>SESSIONNAME=Console</variable><variable>SYSTEMDRIVE=C:</variable><variable>SYSTEMROOT=C:\Windows</variable><variable>TEMP=C:\Users\arsi\AppData\Local\Temp</variable><variable>TMP=C:\Users\arsi\AppData\Local\Temp</variable><variable>USERDNSDOMAIN=EUR.AD.SAG</variable><variable>USERDOMAIN=EUR</variable><variable>USERDOMAIN_ROAMINGPROFILE=EUR</variable><variable>USERNAME=ARSI</variable><variable>USERPROFILE=C:\Users\arsi</variable><variable>WINDIR=C:\Windows</variable><variable>WINDOWS_TRACING_FLAGS=3</variable><variable>WINDOWS_TRACING_LOGFILE=C:\BVTBin\Tests\installpackage\csilogfile.log</variable></environment><version>10.2.0.2.329089</version></header>
+CONN 00000036 6570954957364134218:6571236432340844874 from (unknown)
+PROP 000001fb # $Copyright (c) 2016-2018 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors.$
+# Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG
+
+CUMULOCITY_USERNAME=arsalanmahmood.siddiqi@softwareag.com
+CUMULOCITY_TENANT=arsalan
+CUMULOCITY_PASSWORD=123456789
+CUMULOCITY_APPKEY=apama
+URL=http://arsalan.adamos-dev.com
+ 00000067 C:\Users\arsi\workspace102\StreamingTutorial\config\connectivity\CumulocityIoT\CumulocityIoT.properties
+YAML 0000031f # $Copyright (c) 2017 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors.$
+# Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG
+
+connectivityPlugins:
+    stringCodec:
+        libraryName: connectivity-string-codec
+        class: StringCodec
+
+    classifierCodec:
+        libraryName: ClassifierCodec
+        class: ClassifierCodec
+
+    mapperCodec:
+        libraryName: MapperCodec
+        class: MapperCodec
+
+    diagnosticCodec:
+        libraryName: DiagnosticCodec
+        class: DiagnosticCodec
+
+    jsonCodec:
+        libraryName: connectivity-json-codec
+        class: JSONCodec 0000003d C:\SoftwareAG\Apama\Connectivity\bundles\standard-codecs.yaml
+YAML 000003cc # $Copyright (c) 2016-2018 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA, and/or its subsidiaries and/or its affiliates and/or their licensors.$
+# Use, reproduction, transfer, publication or disclosure is prohibited except as specifically provided for in your License Agreement with Software AG
+
+plugins:
+    ApamaConnectivityForCumulocityIoT:
+        classpath:
+           - ${APAMA_HOME}/lib/connectivity-cumulocity.jar
+        class: com.apama.cumulocity.Transport
+
+startChains:
+    CumulocityIoT:
+        - apama.eventMap:
+                    allowMissing: true
+        - ApamaConnectivityForCumulocityIoT:
+           requestAllDevices: true
+           subscribeToAllMeasurements: true
+           subscribeToDevices: true
+           tenant: ${CUMULOCITY_TENANT}
+           username: ${CUMULOCITY_USERNAME}
+           password: ${CUMULOCITY_PASSWORD}
+           appKey: ${CUMULOCITY_APPKEY}
+           url: ${URL}
+
+ 00000061 C:\Users\arsi\workspace102\StreamingTutorial\config\connectivity\CumulocityIoT\CumulocityIoT.yaml
+RAND 00000009 911314706
+DISC 00000036 6570954957364134218:6571236432340844874 from (unknown)
